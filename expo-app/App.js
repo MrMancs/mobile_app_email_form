@@ -1,12 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-{/*import EmailForm from './EmailForm';*/}
+import EmailForm from './EmailForm';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>hol a tisztelet</Text>
-      {/*<EmailForm />*/}
+      <EmailForm />
       <StatusBar style="auto" /> 
     </View>
   );
